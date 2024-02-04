@@ -14,17 +14,14 @@ This repository is a collection of open-source software projects created by and 
 
 ## Project List
 
-1. **Project A: Smart Home Automation**
-   - Description: Create a smart home automation system using microcontrollers and IoT technologies.
-   - Technologies: Arduino, Raspberry Pi, MQTT.
+1. **Project A: Software Valentine's Day Card**
+   - Description: Create an interactive Valentine's Day card utilizing the Processing IDE and Javascript.
+   - Tools: Javascript, Processing
 
-2. **Project B: Facial Recognition**
-   - Description: Develop a facial recognition system using machine learning and computer vision.
-   - Technologies: Python, OpenCV, TensorFlow.
+2. **Project B: Personal Website Portfolio**
+   - Description: Develop a personal website to document achievements utilizing open source resources.
+   - Technologies: HTML, CSS, Javascript, React.js
 
-3. **Project C: Chat Application**
-   - Description: Build a real-time chat application with features like message encryption.
-   - Technologies: Node.js, Socket.IO, React.
 
 ## Contribution Guidelines
 
@@ -40,6 +37,6 @@ Please adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming
 
 ## Contact
 
-If you have any questions or need assistance, feel free to reach out to us at [wece@example.com](mailto:wece@example.com).
+If you have any questions or need assistance, feel free to reach out to us at [workshops.wece@gmail.com](mailto:workshops.wece@gmail.com).
 
 Happy coding! 🎉
