@@ -4,7 +4,7 @@ Welcome to the WECE Software Projects repository! 🚀
 
 ## Overview
 
-This repository is a collection of open-source software projects created by and for participants of WECE's technical workshops. Feel free to use these projects as a starting point for your own endeavors, experiment with coding techniques, and collaborate with fellow engineers.
+This repository is a collection of open-source software projects created for participants at WECE's technical workshops. Feel free to use these projects as a starting point for your own endeavors, experiment with coding techniques, and collaborate with fellow engineers.
 
 ## Getting Started
 
