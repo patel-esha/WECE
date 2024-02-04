@@ -6,7 +6,6 @@ color yesButtonColor = #FFC0CB;  // Pink color for "Yes" button
 boolean buttonClicked = false;
 boolean yesButtonClicked = false;
 boolean noButtonClicked = false;
-boolean areYouSureClicked = false;
 ArrayList<ConfettiParticle> confettiParticles = new ArrayList<ConfettiParticle>();
 
 void setup() {
@@ -60,28 +59,7 @@ void draw() {
       confettiPop();
       yesButtonClicked = false;
     }
-    
-    // If "No" button is clicked, replace with "Are you sure???🥺"
-    if (noButtonClicked) {
-      if (!areYouSureClicked) {
-        fill(noButtonColor);
-        rect(200, 300, 50, 40);
         
-        fill(255);  // White color for text
-        textSize(10);
-        textAlign(CENTER, CENTER);
-        text("Are you sure???🥺", 225, 320);
-      } else {
-        fill(noButtonColor);
-        rect(175, 300, 100, 60);
-        
-        fill(255);  // White color for text
-        textSize(12);
-        textAlign(CENTER, CENTER);
-        text("Are you sure???🥺", 225, 330);
-      }
-    }
-    
     // Display and update confetti particles
     for (int i = confettiParticles.size() - 1; i >= 0; i--) {
       ConfettiParticle particle = confettiParticles.get(i);
@@ -95,25 +73,6 @@ void draw() {
 }
 
 void mousePressed() {
-    if (noButtonClicked) {
-    if (!areYouSureClicked) {
-      fill(noButtonColor);
-      rect(200, 300, 100, 40); // Adjusted dimensions for the rectangle
-
-      fill(255);  // White color for text
-      textSize(10);
-      textAlign(CENTER, CENTER);
-      text("Are you sure???🥺", 250, 320); // Adjusted position
-    } else {
-      fill(noButtonColor);
-      rect(175, 300, 200, 80); // Adjusted dimensions for the larger rectangle
-
-      fill(255);  // White color for text
-      textSize(16); // Adjusted text size
-      textAlign(CENTER, CENTER);
-      text("Are you sure???🥺", 275, 340); // Adjusted position
-    }
-  }
   if (buttonClicked) {
     // Check if the mouse is clicked inside the half-sized back button
     if (mouseX > 25 && mouseX < 75 && mouseY > 25 && mouseY < 50) {
@@ -160,9 +119,7 @@ void mousePressed() {
     } else {
       areYouSureClicked = true;
     }
-  }
-}
-
+  
 void drawYesNoButtons() {
   // Draw Yes button
   fill(yesButtonColor);
