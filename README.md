@@ -1,4 +1,4 @@
-# Women in Electrical and Computer Engineering (WECE @ UF) Software Projects
+# Women in ECE (WECE @ UF) Software Projects
 
 Welcome to the WECE Software Projects repository! 🚀
 
