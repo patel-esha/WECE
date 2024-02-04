@@ -112,11 +112,7 @@ void mousePressed() {
   // Check if the mouse is clicked inside the Yes or No buttons
   if (buttonClicked && mouseX > 100 && mouseX < 150 && mouseY > 300 && mouseY < 340) {
     yesButtonClicked = true;
-  } else if (buttonClicked && mouseX > 200 && mouseX < 300 && mouseY > 300 && mouseY < 340) {
-    if (!areYouSureClicked) {
-      noButtonClicked = true;
-    } 
-  }
+  } 
 }
 void drawYesNoButtons() {
   // Draw Yes button
