@@ -77,7 +77,6 @@ void mousePressed() {
     // Check if the mouse is clicked inside the half-sized back button
     if (mouseX > 25 && mouseX < 75 && mouseY > 25 && mouseY < 50) {
       buttonClicked = false;
-      areYouSureClicked = false;
       background(frontPageColor);
       
       // Draw cutesy text on front page
@@ -116,10 +115,9 @@ void mousePressed() {
   } else if (buttonClicked && mouseX > 200 && mouseX < 300 && mouseY > 300 && mouseY < 340) {
     if (!areYouSureClicked) {
       noButtonClicked = true;
-    } else {
-      areYouSureClicked = true;
-    }
-  
+    } 
+  }
+}
 void drawYesNoButtons() {
   // Draw Yes button
   fill(yesButtonColor);
