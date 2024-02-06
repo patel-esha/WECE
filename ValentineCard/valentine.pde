@@ -1,14 +1,14 @@
 // Step 1: Give a hex color for the front page [ex: #FFC0CB;]
-color frontPageColor = #(-------------);;  
+color frontPageColor = #(-------------);
 
 // Step 2: Give a hex color for the "Open Card" and "Back" buttons
-color buttonColor = #(-------------);;  
+color buttonColor = #(-------------);
 
 // Step 3: Give a hex color for the "inside" page of the card
-color backColor = #(-------------);;  
+color backColor = #(-------------);
 
 // Step 4: Give a hex color for the "Yes" and "No" buttons
-color yesButtonColor = #(-------------);;  
+color yesButtonColor = #(-------------);
 boolean buttonClicked = false;
 boolean yesButtonClicked = false;
 boolean noButtonClicked = false;
