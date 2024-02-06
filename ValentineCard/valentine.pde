@@ -1,8 +1,14 @@
-color frontPageColor = #FFC0CB;  // Light pink color for front page
-color buttonColor = #FF0000;  // Red color for buttons
-color backColor = #F76D82;  // Updated dark pink color
-color noButtonColor = #000000;  // Black color for "No" button
-color yesButtonColor = #FFC0CB;  // Pink color for "Yes" button
+// Step 1: Give a hex color for the front page [ex: #FFC0CB;]
+color frontPageColor = #(-------------);;  
+
+// Step 2: Give a hex color for the "Open Card" and "Back" buttons
+color buttonColor = #(-------------);;  
+
+// Step 3: Give a hex color for the "inside" page of the card
+color backColor = #(-------------);;  
+
+// Step 4: Give a hex color for the "Yes" and "No" buttons
+color yesButtonColor = #(-------------);;  
 boolean buttonClicked = false;
 boolean yesButtonClicked = false;
 boolean noButtonClicked = false;
@@ -14,11 +20,17 @@ void setup() {
   
   // Draw cutesy text on front page
   fill(255);  // White color for text
-  textSize(24);
+
+// Step 5: Choose a size for the message on the front page of the card [ex: textSize(24);]
+  textSize(-------------);
   textAlign(CENTER, CENTER);
-  textFont(createFont("Comic Sans MS", 24));  // Set font to cutesy
-  text("Will you be my...", width / 2, 150);
-  
+
+// Step 6: Choose a font for the message on the front page of the card[ex: textFont(createFont("Comic Sans MS", 24));]
+  textFont(createFont("-------------", 24));
+
+// Step 7: Write what you would like to be on the front page of the card
+  text("-------------", width / 2, 150);
+
   // Draw red rectangle button on front page
   fill(buttonColor);
   rect(150, 220, 100, 40);
@@ -27,7 +39,9 @@ void setup() {
   fill(255);  // White color for text
   textSize(12);
   textAlign(CENTER, CENTER);
-  text("Open Card", 200, 240);
+
+// Step 8: Write the message you would like on the button to open the card
+  text("-------------", 200, 240);
 }
 
 void draw() {
@@ -43,13 +57,17 @@ void draw() {
     fill(255);  // White color for text
     textSize(10);
     textAlign(CENTER, CENTER);
-    text("Back", 50, 37.5);
-    
+
+// Step 9: Write the message you would like on the button to close the card
+    text("-------------", 50, 37.5);
+
     // Add "valentine?" text
     fill(255);  // White color for text
     textSize(24);
     textAlign(CENTER, CENTER);
-    text("valentine?", width / 2, 150);
+
+// Step 10: Write your message for the inside of the card
+    text("-------------", width / 2, 150);
     
     // Draw Yes and No buttons
     drawYesNoButtons();
@@ -81,10 +99,17 @@ void mousePressed() {
       
       // Draw cutesy text on front page
       fill(255);  // White color for text
-      textSize(24);
+
+// Step 11: The following 10 lines of code are repeats to be able to "return" to the front of the card after clicking the back button. Enter the same information as before for the front of the card
+      // Step 11a: Change the text size of the message on the front of the card 
+      textSize(-------------);
       textAlign(CENTER, CENTER);
-      textFont(createFont("Comic Sans MS", 24));  // Set font to cutesy
-      text("Will you be my...", width / 2, 150);
+
+      // Step 11b: Change the font of the message on the front of the card
+      textFont(createFont("-------------", 24));  // Set font to cutesy
+
+      // Step 11c: Change the message on the front of the card
+      text("-------------", width / 2, 150);
       
       // Draw red rectangle button on front page
       fill(buttonColor);
@@ -94,7 +119,9 @@ void mousePressed() {
       fill(255);  // White color for text
       textSize(12);
       textAlign(CENTER, CENTER);
-      text("Open Card", 200, 240);
+
+      // Step 11d: Write the message you would like on the button that opens the card
+      text("-------------", 200, 240);
       
       // Reset buttons
       yesButtonClicked = false;
@@ -114,6 +141,8 @@ void mousePressed() {
     yesButtonClicked = true;
   } 
 }
+
+// Step 12: The "yes" or "no" buttons made sense for the example card. You may get rid of the buttons, or may implement a different type of button usage!
 void drawYesNoButtons() {
   // Draw Yes button
   fill(yesButtonColor);
@@ -133,7 +162,7 @@ void drawYesNoButtons() {
   textAlign(CENTER, CENTER);
   text("No", 225, 320);
 }
-  
+
 void confettiPop() {
   // Add confetti pop effect
   for (int i = 0; i < 50; i++) {
@@ -178,7 +207,8 @@ class ConfettiParticle {
       speedY *= -0.6;  // Add some damping to simulate bouncing on the ground
     }
   }
-  
+
+// Step 13 (OPTIONAL): Change the shape of the confetti (maybe try heart shapes <3)???
   void display() {
     fill(particleColor);
     rect(x, y, size, size/2);
