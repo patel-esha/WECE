@@ -25,11 +25,14 @@ Alternatively, if you have another repository in mind that fits your vision for 
 
 Once you've selected the repository you want to use, follow these steps to clone it to your local machine:
 
-1. Open your terminal or command prompt.
+1. Open your Visual Studio Code terminal.
 2. Navigate to the directory where you want to store your portfolio project.
 3. Run the following command, replacing `[repository-url]` with the URL of the chosen repository: `git clone [repository-url]`
+4. Change the directory to the project folder using 'cd'
+5. Install using 'npm install'
+6. Start local host using 'npm start'
 
-4. Wait for the cloning process to complete.
+7. Wait for the cloning process to complete.
 
 ### Customizing Your Portfolio
 
