@@ -27,7 +27,7 @@ Once you've selected the repository you want to use, follow these steps to clone
 
 1. Open your terminal or command prompt.
 2. Navigate to the directory where you want to store your portfolio project.
-3. Run the following command, replacing `[repository-url]` with the URL of the chosen repository: git clone [repository-url]
+3. Run the following command, replacing `[repository-url]` with the URL of the chosen repository: `git clone [repository-url]`
 
 4. Wait for the cloning process to complete.
 
