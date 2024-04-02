@@ -6,18 +6,8 @@
 
 Welcome to the workshop! In this session, you'll be setting up your own portfolio website using GitHub repositories provided below. These repositories are specifically curated to help you showcase your work effectively.
 
-### Repository Options
-
-You are allowed to choose any of the following GitHub repositories to clone for your portfolio. Each repository comes with its own set of features and design aesthetics. Feel free to explore them and select the one that best matches the website you want to build:
-
-1. **[Dorota1997/react-frontend-dev-portfolio](https://github.com/Dorota1997/react-frontend-dev-portfolio.git)**
-   - Website: [https://dorota1997.github.io/react-frontend-dev-portfolio/](https://dorota1997.github.io/react-frontend-dev-portfolio/)
-
-2. **[soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio)**
-   - Website: [https://soumyajit.vercel.app/](https://soumyajit.vercel.app/)
-
-3. **[ubaimutl/react-portfolio](https://github.com/ubaimutl/react-portfolio.git)**
-   - Website: [https://ubaimutl.github.io/react-portfolio/about](https://ubaimutl.github.io/react-portfolio/about)
+### Repository Option (you may also choose your)
+1. Github: https://github.com/saadpasta/developerFolio.git
 
 Alternatively, if you have another repository in mind that fits your vision for the portfolio, feel free to use it. The provided repositories are suggested for their suitability for portfolios, but the choice is ultimately yours.
 
